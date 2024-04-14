@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html Lang = "en" xmlns:th="www.thymeleaf.org">
+    <head>
+        <title>Show Managers</title>
+    </head>
+    <body>
+        <h1>Show Managers ver 1.0 </h1> 
+        <table>
+            <tr th:each="data: ${manager}">
+                <td th:text="*{data.id}"></td>
+                <td th:text="*{data.username}"></td>
+                <td th:text="*{data.password}"></td>
+                <td th:text="*{data.email}"></td>
+            </tr>
+        </table>
+    </body>
+</html>
