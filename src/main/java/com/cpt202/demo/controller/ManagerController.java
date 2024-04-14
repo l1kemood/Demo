@@ -5,7 +5,6 @@ import com.cpt202.demo.repository.ManagerRepo;
 
 import java.util.List;
 
-import org.springframework.aop.framework.adapter.AdvisorAdapterRegistrationManager;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
