@@ -1,7 +1,7 @@
 package com.cpt202.demo.entity;
 
 public class Employee {
-    private Integer emplyeeID;//员工ID
+    private Integer employeeID;//员工ID
     private Integer employeeAccount;//员工账号
     private String employeeName;//员工姓名
     private String employeePassword;//员工密码
@@ -14,8 +14,8 @@ public class Employee {
     public Employee() {
     }
 
-    public Employee(Integer employeeAccount, String employeeName, String employeeGender, Integer employeeAge, String entryTime, String staff, String employeeMessage) {
-        this.employeeID =emplyeeID;
+    public Employee(Integer employeeID,Integer employeeAccount, String employeeName, String employeeGender, Integer employeeAge, String entryTime, String staff, String employeeMessage) {
+        this.employeeID =employeeID;
         this.employeeAccount = employeeAccount;
         this.employeeName = employeeName;
         this.employeeGender = employeeGender;
@@ -89,12 +89,12 @@ public class Employee {
         this.employeeMessage = employeeMessage;
     }
 
-    public Integer getEmplyeeID() {
-        return emplyeeID;
+    public Integer getEmpl0yeeID() {
+        return employeeID;
     }
 
-    public void setEmplyeeID(Integer emplyeeID) {
-        this.emplyeeID = emplyeeID;
+    public void setEmplyeeID(Integer empl0yeeID) {
+        this.employeeID = empl0yeeID;
     }
 
 

@@ -5,8 +5,7 @@ import com.cpt202.demo.repository.ManagerRepo;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-
-import jakarta.persistence.EntityNotFoundException;
+ 
 
 import java.util.List;
 import java.util.Optional;

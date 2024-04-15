@@ -6,6 +6,8 @@ import com.cpt202.demo.repository.EmployeeRepo;
 import java.util.List;
 import java.util.Optional;
 
+import org.springframework.beans.factory.annotation.Autowired;
+
 public class EmployeeService {
     private final EmployeeRepo employeeRepository;
 
